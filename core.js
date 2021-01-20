@@ -16,7 +16,7 @@ class Block {
     }
     //genesis block
     static genesis() {
-        return new this('SMA', '----', 'f1r57-h45h', []);
+        return new this('SMA', '----', 'f1r57-h45h', "I'll see what i can do");
     }
     //mine block
     static mineBlock(lastBlock, data) {
